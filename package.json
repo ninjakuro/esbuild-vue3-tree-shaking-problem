@@ -1,0 +1,17 @@
+{
+  "name": "vue3-tree-shaking-problem",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "esbuild": "^0.20.2",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "esbuild-plugin-vue-next": "^0.1.4",
+    "typescript": "^5.2.2"
+  }
+}
